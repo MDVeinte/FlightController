@@ -26,10 +26,59 @@ public class jpBienvenida extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setLayout(new java.awt.BorderLayout());
+        jLNombreEmpleado = new javax.swing.JLabel();
+        jTextNombreEmpleado = new javax.swing.JTextField();
+        jLIdEmpleado = new javax.swing.JLabel();
+        jTextIdEmpleado = new javax.swing.JTextField();
+        jLPuestoTrabajo = new javax.swing.JLabel();
+        jTextPuestoTrabajo = new javax.swing.JTextField();
+        jLNombreEmpleado2 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+
+        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLNombreEmpleado.setText("Nombre de empleado");
+        add(jLNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
+
+        jTextNombreEmpleado.setText("Benito Camela ");
+        jTextNombreEmpleado.setEnabled(false);
+        add(jTextNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
+
+        jLIdEmpleado.setText("ID de empleado");
+        add(jLIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, -1));
+
+        jTextIdEmpleado.setText("666");
+        add(jTextIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, -1, -1));
+
+        jLPuestoTrabajo.setText("Puesto de trabajo");
+        add(jLPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
+
+        jTextPuestoTrabajo.setText("Limpia baños del avión");
+        add(jTextPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, -1, -1));
+
+        jLNombreEmpleado2.setText("ID de empleado");
+        add(jLNombreEmpleado2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, -1, -1));
+
+        jTextField4.setText("jTextField1");
+        add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, -1, -1));
+
+        jLabel1.setFont(new java.awt.Font("Verdana", 0, 13)); // NOI18N
+        jLabel1.setText("Bienvenido/a");
+        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 140, 30));
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLIdEmpleado;
+    private javax.swing.JLabel jLNombreEmpleado;
+    private javax.swing.JLabel jLNombreEmpleado2;
+    private javax.swing.JLabel jLPuestoTrabajo;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextIdEmpleado;
+    private javax.swing.JTextField jTextNombreEmpleado;
+    private javax.swing.JTextField jTextPuestoTrabajo;
     // End of variables declaration//GEN-END:variables
 }
