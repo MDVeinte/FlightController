@@ -26,57 +26,97 @@ public class jpBienvenida extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLBienvenido = new javax.swing.JLabel();
         jLNombreEmpleado = new javax.swing.JLabel();
         jTextNombreEmpleado = new javax.swing.JTextField();
         jLIdEmpleado = new javax.swing.JLabel();
         jTextIdEmpleado = new javax.swing.JTextField();
         jLPuestoTrabajo = new javax.swing.JLabel();
         jTextPuestoTrabajo = new javax.swing.JTextField();
-        jLNombreEmpleado2 = new javax.swing.JLabel();
-        jTextField4 = new javax.swing.JTextField();
+        jBPanelDatosTecnicos = new javax.swing.JButton();
+        jBPanelEconomia = new javax.swing.JButton();
+        jBPanelEmpleados = new javax.swing.JButton();
+        jBPanelPrincipal = new javax.swing.JButton();
+        jBCerrarPrograma = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLBienvenido.setFont(new java.awt.Font("Verdana", 0, 13)); // NOI18N
+        jLBienvenido.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLBienvenido.setText("Bienvenido/a");
+        jLBienvenido.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        add(jLBienvenido, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 140, 30));
+
         jLNombreEmpleado.setText("Nombre de empleado");
+        jLNombreEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jLNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
         jTextNombreEmpleado.setText("Benito Camela ");
         jTextNombreEmpleado.setEnabled(false);
-        add(jTextNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
+        jTextNombreEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
+        add(jTextNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 80, -1, -1));
 
         jLIdEmpleado.setText("ID de empleado");
+        jLIdEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jLIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, -1));
 
         jTextIdEmpleado.setText("666");
-        add(jTextIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, -1, -1));
+        jTextIdEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
+        add(jTextIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 130, -1, -1));
 
         jLPuestoTrabajo.setText("Puesto de trabajo");
+        jLPuestoTrabajo.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jLPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
         jTextPuestoTrabajo.setText("Limpia baños del avión");
-        add(jTextPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, -1, -1));
+        add(jTextPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 180, -1, -1));
 
-        jLNombreEmpleado2.setText("ID de empleado");
-        add(jLNombreEmpleado2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, -1, -1));
+        jBPanelDatosTecnicos.setText("Datos Técnicos Flota");
+        add(jBPanelDatosTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 50, -1, -1));
 
-        jTextField4.setText("jTextField1");
-        add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, -1, -1));
+        jBPanelEconomia.setText("Datos Economicos");
+        jBPanelEconomia.setMaximumSize(new java.awt.Dimension(176, 29));
+        jBPanelEconomia.setMinimumSize(new java.awt.Dimension(176, 29));
+        jBPanelEconomia.setPreferredSize(new java.awt.Dimension(176, 29));
+        add(jBPanelEconomia, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, -1, -1));
 
-        jLabel1.setFont(new java.awt.Font("Verdana", 0, 13)); // NOI18N
-        jLabel1.setText("Bienvenido/a");
-        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 140, 30));
+        jBPanelEmpleados.setText("Gestión de Empleados");
+        jBPanelEmpleados.setMaximumSize(new java.awt.Dimension(176, 29));
+        jBPanelEmpleados.setMinimumSize(new java.awt.Dimension(176, 29));
+        jBPanelEmpleados.setPreferredSize(new java.awt.Dimension(176, 29));
+        add(jBPanelEmpleados, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 110, -1, -1));
+
+        jBPanelPrincipal.setText("Cerrar Sesión");
+        jBPanelPrincipal.setMaximumSize(new java.awt.Dimension(176, 29));
+        jBPanelPrincipal.setMinimumSize(new java.awt.Dimension(176, 29));
+        jBPanelPrincipal.setPreferredSize(new java.awt.Dimension(176, 29));
+        add(jBPanelPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, -1, -1));
+
+        jBCerrarPrograma.setText("Cerrar Programa");
+        jBCerrarPrograma.setPreferredSize(new java.awt.Dimension(176, 29));
+        add(jBCerrarPrograma, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 170, -1, -1));
+
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("Menú de acciones");
+        jLabel1.setMaximumSize(new java.awt.Dimension(176, 29));
+        jLabel1.setMinimumSize(new java.awt.Dimension(176, 29));
+        jLabel1.setPreferredSize(new java.awt.Dimension(176, 29));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jBCerrarPrograma;
+    private javax.swing.JButton jBPanelDatosTecnicos;
+    private javax.swing.JButton jBPanelEconomia;
+    private javax.swing.JButton jBPanelEmpleados;
+    private javax.swing.JButton jBPanelPrincipal;
+    private javax.swing.JLabel jLBienvenido;
     private javax.swing.JLabel jLIdEmpleado;
     private javax.swing.JLabel jLNombreEmpleado;
-    private javax.swing.JLabel jLNombreEmpleado2;
     private javax.swing.JLabel jLPuestoTrabajo;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextIdEmpleado;
     private javax.swing.JTextField jTextNombreEmpleado;
     private javax.swing.JTextField jTextPuestoTrabajo;
