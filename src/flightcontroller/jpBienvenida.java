@@ -39,6 +39,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         jBPanelPrincipal = new javax.swing.JButton();
         jBCerrarPrograma = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -103,6 +104,9 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLabel1.setMinimumSize(new java.awt.Dimension(176, 29));
         jLabel1.setPreferredSize(new java.awt.Dimension(176, 29));
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, -1, -1));
+
+        jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, 20, 230));
     }// </editor-fold>//GEN-END:initComponents
 
 
@@ -117,6 +121,7 @@ public class jpBienvenida extends javax.swing.JPanel {
     private javax.swing.JLabel jLNombreEmpleado;
     private javax.swing.JLabel jLPuestoTrabajo;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextField jTextIdEmpleado;
     private javax.swing.JTextField jTextNombreEmpleado;
     private javax.swing.JTextField jTextPuestoTrabajo;
