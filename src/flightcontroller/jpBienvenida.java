@@ -53,7 +53,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLNombreEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jLNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
-        jTextNombreEmpleado.setText("Benito Camela ");
+        jTextNombreEmpleado.setText("Lara Leist");
         jTextNombreEmpleado.setEnabled(false);
         jTextNombreEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jTextNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 80, -1, -1));
@@ -62,7 +62,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLIdEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jLIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, -1));
 
-        jTextIdEmpleado.setText("666");
+        jTextIdEmpleado.setText("001");
         jTextIdEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jTextIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 130, -1, -1));
 
@@ -70,7 +70,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLPuestoTrabajo.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jLPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
-        jTextPuestoTrabajo.setText("Limpia baños del avión");
+        jTextPuestoTrabajo.setText("Piloto - Airbus A320");
         add(jTextPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 180, -1, -1));
 
         jBPanelDatosTecnicos.setText("Datos Técnicos Flota");
