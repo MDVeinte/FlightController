@@ -41,6 +41,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
 
+        setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLBienvenido.setFont(new java.awt.Font("Verdana", 0, 13)); // NOI18N
@@ -63,6 +64,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         add(jLIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, -1));
 
         jTextIdEmpleado.setText("001");
+        jTextIdEmpleado.setEnabled(false);
         jTextIdEmpleado.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jTextIdEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 130, -1, -1));
 
@@ -71,6 +73,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         add(jLPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
         jTextPuestoTrabajo.setText("Piloto - Airbus A320");
+        jTextPuestoTrabajo.setEnabled(false);
         add(jTextPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 180, -1, -1));
 
         jBPanelDatosTecnicos.setText("Datos Técnicos Flota");
