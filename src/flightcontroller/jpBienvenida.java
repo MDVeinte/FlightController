@@ -72,7 +72,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLPuestoTrabajo.setPreferredSize(new java.awt.Dimension(156, 26));
         add(jLPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
-        jTextPuestoTrabajo.setText("Piloto - Airbus A320");
+        jTextPuestoTrabajo.setText("Directora General");
         jTextPuestoTrabajo.setEnabled(false);
         add(jTextPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 180, -1, -1));
 

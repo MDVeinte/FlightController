@@ -31,7 +31,7 @@
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Bienvenido/a"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-          <Color id="Cursor Por defecto"/>
+          <Color id="Default Cursor"/>
         </Property>
       </Properties>
       <Constraints>
@@ -109,7 +109,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jTextPuestoTrabajo">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Piloto - Airbus A320"/>
+        <Property name="text" type="java.lang.String" value="Directora General"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
       <Constraints>
