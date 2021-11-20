@@ -31,6 +31,8 @@ public class jpMantenimiento extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         JTableInformacionAvion = new javax.swing.JTable();
 
+        setBackground(new java.awt.Color(255, 255, 255));
+
         jComboModeloAvion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jComboModeloAvion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

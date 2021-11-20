@@ -41,6 +41,7 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
 
+        setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLBienvenido.setFont(new java.awt.Font("Verdana", 0, 13)); // NOI18N
