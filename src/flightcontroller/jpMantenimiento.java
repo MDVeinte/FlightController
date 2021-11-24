@@ -34,7 +34,7 @@ public class jpMantenimiento extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
-        jComboModeloAvion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboModeloAvion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Boeing 747-800", "Boeing 767-200", "McDonell Douglas DC 10", "Antonov An-225", "Airbus A220", "Airbus A300", "Airbus A300-600ST Beluga", "Airbus Beluga XL", "Airbus A310", "Airbus A318", "Airbus A319", "Airbus A320", "Airbus A321", "Airbus A330", "Airbus A340", "Airbus A350", "Airbus A380", " " }));
         jComboModeloAvion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboModeloAvionActionPerformed(evt);
@@ -45,15 +45,29 @@ public class jpMantenimiento extends javax.swing.JPanel {
 
         JTableInformacionAvion.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {"01", "Airbus A380", "700", "310.000 Litros", "600 L/100KM", "9 Abril 2009", "24 Noviembre 2025", "3 Agosto 2021"},
+                {"02", "Airbus A380", "750", "310.000Litros", "650L/100KM", "12 Octubre 2010", "10 Noviembre 2028", "1 Julio 2021"},
+                {"03", "Airbus A380", "650", "310.000 Litros", "590L/100KM", "1 Febrero 2006", "27 Diciembre 2023", "23 Noviembre 2021"}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "ID", "Modelo", "Numero Asientos", "Capacidad Carburante", "Consumo", "Fecha Primer Servicio", "Fecha Ultimo Servicio", "Fecha Mantenimiento"
             }
-        ));
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, true, true, true, true
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane1.setViewportView(JTableInformacionAvion);
 
         jButton1.setText("Volver");
