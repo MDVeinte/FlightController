@@ -34,8 +34,14 @@ public class vtnPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
+        setResizable(false);
 
         jBtnIniciarSesionM.setText("Iniciar Sesión");
+        jBtnIniciarSesionM.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnIniciarSesionMActionPerformed(evt);
+            }
+        });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("Flight Controller");
@@ -96,6 +102,11 @@ public class vtnPrincipal extends javax.swing.JFrame {
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jBtnIniciarSesionMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIniciarSesionMActionPerformed
+        jpBienvenida primero = new jpBienvenida();
+        primero.setVisible(true);
+    }//GEN-LAST:event_jBtnIniciarSesionMActionPerformed
 
     /**
      * @param args the command line arguments
