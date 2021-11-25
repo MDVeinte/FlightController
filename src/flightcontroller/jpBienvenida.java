@@ -34,7 +34,6 @@ public class jpBienvenida extends javax.swing.JPanel {
         jLPuestoTrabajo = new javax.swing.JLabel();
         jTextPuestoTrabajo = new javax.swing.JTextField();
         jBPanelDatosTecnicos = new javax.swing.JButton();
-        jBPanelEconomia = new javax.swing.JButton();
         jBPanelEmpleados = new javax.swing.JButton();
         jBPanelPrincipal = new javax.swing.JButton();
         jBCerrarPrograma = new javax.swing.JButton();
@@ -77,13 +76,10 @@ public class jpBienvenida extends javax.swing.JPanel {
         add(jTextPuestoTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 180, -1, -1));
 
         jBPanelDatosTecnicos.setText("Datos Técnicos Flota");
-        add(jBPanelDatosTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 50, -1, -1));
-
-        jBPanelEconomia.setText("Datos Economicos");
-        jBPanelEconomia.setMaximumSize(new java.awt.Dimension(176, 29));
-        jBPanelEconomia.setMinimumSize(new java.awt.Dimension(176, 29));
-        jBPanelEconomia.setPreferredSize(new java.awt.Dimension(176, 29));
-        add(jBPanelEconomia, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, -1, -1));
+        jBPanelDatosTecnicos.setMaximumSize(new java.awt.Dimension(176, 29));
+        jBPanelDatosTecnicos.setMinimumSize(new java.awt.Dimension(176, 29));
+        jBPanelDatosTecnicos.setName(""); // NOI18N
+        add(jBPanelDatosTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 60, 170, 30));
 
         jBPanelEmpleados.setText("Gestión de Empleados");
         jBPanelEmpleados.setMaximumSize(new java.awt.Dimension(176, 29));
@@ -116,7 +112,6 @@ public class jpBienvenida extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jBCerrarPrograma;
     private javax.swing.JButton jBPanelDatosTecnicos;
-    private javax.swing.JButton jBPanelEconomia;
     private javax.swing.JButton jBPanelEmpleados;
     private javax.swing.JButton jBPanelPrincipal;
     private javax.swing.JLabel jLBienvenido;
